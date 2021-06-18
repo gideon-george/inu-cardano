@@ -1,6 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+ 
+  <HelloWorld msg="INU CARDANO TOKEN"/>
+  <h1> The First African Decentralized Finance. </h1>
+  <h3> Website under construction... </h3>
+  <p id="ready"> To be ready in less then 48hours from now...</p>
 </template>
 
 <script>
@@ -22,5 +25,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#ready{
+  margin-top: 50px;
 }
 </style>
