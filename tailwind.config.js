@@ -7,5 +7,10 @@ module.exports = {
   variants: {
     extend: {},
   },
+  animation:{
+    bounce: 'bounce 10s linear finite',
+
+    pulse: 'pulse 5s ease-out infinite'
+  },
   plugins: [],
 }

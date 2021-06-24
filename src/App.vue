@@ -1,18 +1,16 @@
 <template>
- 
-  <HelloWorld msg="INU CARDANO TOKEN"/>
-  <h1> The First African Decentralized Finance. </h1>
-  <h3> Website under construction... </h3>
-  <p id="ready"> To be ready in less then 48hours from now...</p>
+ <Header/>
+  <HelloWorld/>
 </template>
 
 <script>
+import Header from './components/Header.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header, HelloWorld
   }
 }
 </script>
