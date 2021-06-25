@@ -12,6 +12,11 @@
       <a class="inline-block py-10 font-semibold text-gray-300 text-xl hover:text-yellow-500 transition ease-in duration-150" href="#">Multiplatform</a>
       <a class="inline-block py-10 font-semibold text-gray-300 text-xl hover:text-yellow-500 transition ease-in duration-150" href="#">Team</a>
       <a class="inline-block py-10 font-semibold text-gray-300 text-xl hover:text-yellow-500 transition ease-in duration-150" href="#">DISCLAIMER</a>
+      
+      
+      
+      
+      
       </div> 
        
 </template>

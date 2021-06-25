@@ -1,16 +1,22 @@
 <template>
  <Header/>
   <HelloWorld/>
+  <About/>
+  <Footer/>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import HelloWorld from './components/HelloWorld.vue'
-
+import About from './components/About.vue'
+import Footer from './components/Footer.vue'
 export default {
   name: 'App',
   components: {
-    Header, HelloWorld
+    Header, 
+    HelloWorld,
+    About,
+    Footer, 
   }
 }
 </script>
