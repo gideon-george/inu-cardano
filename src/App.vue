@@ -2,21 +2,28 @@
  <Header/>
   <HelloWorld/>
   <About/>
+  <Mission/>
   <Footer/>
+    
+
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import Mission from './components/Mission.vue'
 import About from './components/About.vue'
 import Footer from './components/Footer.vue'
+
 export default {
   name: 'App',
   components: {
     Header, 
     HelloWorld,
     About,
-    Footer, 
+    Mission, 
+    Footer
+    
   }
 }
 </script>
