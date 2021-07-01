@@ -1,10 +1,11 @@
 <template>
 
- <h2 class="font-bold m-10  text-5xl"> Creating An Impact</h2>
+ <h2 class="font-bold m-6  text-3xl"> CREATING AN IMPACT</h2>
  
-  <div class="flex justify-center mx-40 p-10 text-center rounded-t-3xl">
+  <div class="flex justify-center mx-20 p-10 text-center">
 
-  <div class="font-bold text-xl m-10"><h3 class=" font-bold text-3xl bg-blue-800 text-gray-100 rounded-3xl  py-4 mx-30 mb-15" >Mission 1</h3>
+  <div class="font-semibold text-lg m-6">
+  <h3 class="tracking-wider font-bold text-3xl bg-blue-800 shadow-2xl text-gray-100 rounded-3xl  py-4 mb-15" >Mission <span class="text-yellow-300"> 1</span></h3>
   <p class="mt-10">Every holder is given a simple way
 to gain exposure in digital assets,<br>
 Equal chance for everyone to
@@ -13,14 +14,15 @@ inrespective of race or region.</p></div>
 
 
 
-  <div class="font-bold text-xl m-10"><h3 class=" font-bold text-3xl bg-blue-800 text-gray-100 rounded-3xl  py-4 mx-30 mb-15" >Mission 2</h3>
+  <div class="font-semibold text-lg m-6">
+  <h3 class="tracking-wider font-bold text-3xl bg-blue-800 shadow-2xl text-gray-100 rounded-3xl  py-4 mb-15" >Mission <span class="text-yellow-300"> 2 </span></h3>
   <p class="mt-10">Operate a more transparent
 community base and
 community focus digital assets
 that is fully decentralized.</p></div>
 
 
-<div class="font-bold text-xl m-10"><h3 class=" font-bold text-3xl bg-blue-800 text-gray-100 rounded-3xl  py-4 mx-30 mb-15" >Mission 3</h3>
+<div class="font-semibold text-lg m-6"><h3 class=" font-bold text-3xl bg-blue-800 shadow-2xl text-gray-100 rounded-3xl py-4 mb-15" >Mission <span class="text-yellow-300">3</span></h3>
   <p class="mt-10">Provide lending service to
 African nations, <br>
 Payment gateway and cashless
@@ -32,9 +34,43 @@ goods across the globe.</p></div>
 
 
 
-  <div></div>
-  <div></div>
-  <div></div>
+  <div class="flex p-10 text-lg bg-gray-900 w-screen justify-between">
+          <div class="font-bold text-gray-300 w-1/2 my-20 mx-20">
+          <h2 class="font-extrabold text-3xl tracking-wider text-yellow-300 mb-10">Community</h2>
+          <p>"To ensure consistency and sustainable management of our token for all"</p> <br>
+          <p>Inu cardana is a community driven token, focused in serving others for a greater good. We discuss every
+          decision with our community before doing anything (i.e Our current holders will be able to vote on polls in
+          relation to new ideas and innovation)</p>
+          </div>
+          <img class="rounded-full ring-8 w-1/2 ml-10 shadow-2xl" :src="blue" alt="Community"></div>
+
+
+
+
+   <div class="flex mx-20 my-20 text-lg justify-between">
+          <div class="font-bold mr-20 w-1/2 justify-center"> 
+          <h2 class="font-extrabold text-3xl tracking-wider text-blue-700 mb-10">Passion</h2>
+          <p>Passion will always run in INU CARDANO.</p> <br>
+          <p>We believe in what we do and take satisfaction in
+              providing an efficient and fully-fledged ecosytem
+              surrounding the token. Inu cardano longevity will come
+              from our drive and energy in encouraging group efforts
+              related to marketing, community management,
+              development and more.</p>
+          </div>
+          <img class="rounded-full h-50 w-1/2 shadow-2xl" :src="arrow" alt="Passion"></div>
+
+
+
+  <div class="flex p-20 text-lg bg-blue-800 w-screen justify-center">
+          <div class="font-bold text-gray-900 w-1/2 mr-14 justify-center">
+          <h2 class="font-extrabold text-3xl tracking-wider text-yellow-300 mt-20 mb-10">Transparency</h2>
+          <p>"To ensure consistency and sustainable management of our token for all"</p> <br>
+          <p>Inu cardana is a community driven token, focused in serving others for a greater good. We discuss every
+          decision with our community before doing anything (i.e Our current holders will be able to vote on polls in
+          relation to new ideas and innovation)</p>
+          </div>
+          <img class="rounded-full border-4 shadow-2xl" :src="main" alt="Transparency"></div>
 
 
 </template>
@@ -44,7 +80,9 @@ export default {
 name: "Mission",
 data(){
   return{
-    
+    blue: require('../assets/blue.jpg'),
+    arrow: require('../assets/arrow.jpg'),
+    main: require('../assets/main.jpg')
   }
 }
 }
