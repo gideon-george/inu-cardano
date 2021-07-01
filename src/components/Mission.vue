@@ -62,7 +62,7 @@ goods across the globe.</p></div>
 
 
 
-  <div class="flex p-20 text-lg bg-blue-800 w-screen justify-center">
+  <div class="flex p-20 text-lg bg-blue-800 w-screen justify-between">
           <div class="font-bold text-gray-900 w-1/2 mr-14 justify-center">
           <h2 class="font-extrabold text-3xl tracking-wider text-yellow-300 mt-20 mb-10">Transparency</h2>
           <p>"To ensure consistency and sustainable management of our token for all"</p> <br>
