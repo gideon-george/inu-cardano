@@ -3,6 +3,7 @@
   <HelloWorld/>
   <About/>
   <Mission/>
+  <Tokenomics/>
   <Footer/>
     
 
@@ -13,6 +14,7 @@ import Header from './components/Header.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import Mission from './components/Mission.vue'
 import About from './components/About.vue'
+import Tokenomics from './components/Tokenomics.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -22,6 +24,7 @@ export default {
     HelloWorld,
     About,
     Mission, 
+    Tokenomics,
     Footer
     
   }

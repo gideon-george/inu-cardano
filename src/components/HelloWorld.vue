@@ -23,7 +23,7 @@
  </div> 
 
  <!--right-->
-  <div class="mr-15 mt-15 max-w-md mx-auto">
+  <div class="mt-15 mx-20">
    <img class="rounded-full border-4 shadow-2xl py-1  animate-bounce" :src="logo" alt="Inu Cardano Logo"/>
 
 
