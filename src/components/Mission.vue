@@ -47,7 +47,7 @@ goods across the globe.</p></div>
 
 
 
-   <div class="flex mx-20 my-20 text-lg shadow-2xl rounded-2xl  p-6 justify-between">
+   <div class="flex mx-20 my-20 text-lg shadow-2xl rounded-3xl  p-6 justify-between">
           <div class="font-bold mr-20 w-1/2 justify-center"> 
           <h2 class="font-extrabold text-3xl tracking-wider text-blue-700 mb-10">Passion</h2>
           <p>Passion will always run in INU CARDANO.</p> <br>
@@ -62,7 +62,7 @@ goods across the globe.</p></div>
 
 
 
-  <div class="flex rounded-tl-full p-20 text-lg bg-blue-800 shadow-inner w-screen justify-between">
+  <div class="flex rounded-bl rounded-tl-full p-20 text-lg bg-blue-800 shadow-inner w-screen justify-between">
           <div class="font-bold text-blue-100 w-1/2 mr-10 justify-center">
           <h2 class="font-extrabold text-3xl tracking-wider text-yellow-300 mt-20 mb-10">Transparency</h2>
           <p>"To ensure consistency and sustainable management of our token for all"</p> <br>
